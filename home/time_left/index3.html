@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>2023年中考倒计时</title>
+<link rel="stylesheet" href="./TimeCircles.css">
+</head>
+
+<h1 style="width: 580px; margin: 0 auto; text-align: center;">距离2023年初中学业水平考试还有:<h1>
+<div id="someTimer1" class="someTimer" data-date="2023-06-26 15:00:00" style="width: 700px; margin: 0 auto;"><div class="time_circles"><canvas height="175" width="700"></canvas><div class="textDiv_Days" style="top: 61px; left: 0px; width: 175px;"><h4 style="font-size: 12px; line-height: 12px;"></div></div></div>
+<br>
+<br>
+<h1 style="width: 580px; margin: 0 auto; text-align: center;">你准备好了吗？<h1>
+
+
+<script src="./jquery-1.7.2.min.js"></script>
+<script src="./TimeCircles.js"></script>
+<script>
+$(function(){
+	$('#someTimer1').TimeCircles({
+		time : {
+			Days: {
+				show: false,
+				text: "天",
+				color: "#FC6"
+			},
+			Hours: {
+				show: false,
+				text: "时",
+				color: "#9CF"
+			},
+			Minutes: {
+				show: false,
+				text: "分",
+				color: "#BFB"
+			},
+			Seconds: {
+				show: false,
+				text: "秒",
+				color: "#F99"
+			}
+		}
+	});
+	$('#someTimer2').TimeCircles({
+		time : {
+			Days: {
+				show: false,
+				text: "天",
+				color: "#FC6"
+			},
+			Hours: {
+				show: false,
+				text: "时",
+				color: "#9CF"
+			},
+			Minutes: {
+				show: false,
+				text: "分",
+				color: "#BFB"
+			},
+			Seconds: {
+				show: false,
+				text: "秒",
+				color: "#F99"
+			}
+		},
+		refresh_interval: 0.1,
+		count_past_zero: false,
+		circle_bg_color: "#ddd",
+		fg_width: 0.03,
+		bg_width: 0.2
+	});
+	$('#someTimer3').TimeCircles({
+		time : {
+			Days: {
+				show: false,
+				text: "天",
+				color: "#FC6"
+			},
+			Hours: {
+				show: false,
+				text: "时",
+				color: "#9CF"
+			},
+			Minutes: {
+				show: false,
+				text: "分",
+				color: "#BFB"
+			},
+			Seconds: {
+				show: false,
+				text: "秒",
+				color: "#F99"
+			}
+		},
+		refresh_interval: 0.1,
+		count_past_zero: true,
+		circle_bg_color: "#eee",
+		fg_width: 0.05,
+		bg_width: 1
+	});
+});
+</script>
+
+
+
+</body></html>
