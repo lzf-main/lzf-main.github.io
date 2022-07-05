@@ -7,5 +7,6 @@ swt3.pdf
 2.docx
 3.docx
 3.pdf
+swt.zip
 访问格式:https://lzf-main.github.io/home/swt/cyx/private/文件名
 例如要访问swt2.pdf,则链接为:https://lzf-main.github.io/home/swt/cyx/private/swt2.pdf
