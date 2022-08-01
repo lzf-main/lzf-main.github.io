@@ -1,1 +1,1 @@
-{"version":"1.00","text":"检测到有版本更新，正在跳转到浏览器下载","update":"https://www.baidu.com","qz":"1"}
+{"version":"1.01","text":"检测到有版本更新，正在跳转到浏览器下载","update":"https://www.baidu.com","qz":"0"}
